@@ -1,20 +1,14 @@
 [
     {
-        "title": "Memoclock",
-        "description": "Simon says was my first project at college. The goal was to create an alarm clock that ensures you are awake by making you play a game of Simon says.",
-        "image": "https://via.placeholder.com/150",
-        "youtube": "https://www.youtube.com/watch?v=KI55y5cqgig"
+        "title": "Project One",
+        "description": "Short description of your project goes here.",
+        "image": "https://via.placeholder.com/320x180?text=Image+1",
+        "link": "https://github.com/yourusername/project-one"
     },
     {
         "title": "Project Two",
-        "description": "Description of Project Two.",
-        "image": "https://via.placeholder.com/150",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID_2"
-    },
-    {
-        "title": "Project Three",
-        "description": "Description of Project Three.",
-        "image": "https://via.placeholder.com/150",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID_3"
+        "description": "Another project description.",
+        "youtube": "dQw4w9WgXcQ",
+        "link": "https://yourwebsite.com/project-two"
     }
 ]
