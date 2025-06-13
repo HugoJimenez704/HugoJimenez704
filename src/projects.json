@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Project One",
+        "description": "Description of Project One.",
+        "image": "https://via.placeholder.com/150",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID_1"
+    },
+    {
+        "title": "Project Two",
+        "description": "Description of Project Two.",
+        "image": "https://via.placeholder.com/150",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID_2"
+    },
+    {
+        "title": "Project Three",
+        "description": "Description of Project Three.",
+        "image": "https://via.placeholder.com/150",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID_3"
+    }
+]
