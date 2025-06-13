@@ -1,8 +1,16 @@
-body {
+html, body {
+  height: 100%;
   margin: 0;
-  font-family: 'Inter', Arial, sans-serif;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background: #DAD7CD;
   color: #344E41;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .container {
@@ -25,9 +33,11 @@ header {
 }
 
 main {
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start; /* Add this line */
   gap: 2rem;
   padding: 2rem 1rem;
 }
@@ -114,6 +124,44 @@ h1, h2 {
 .project a:hover {
   background: #3A5A40;
   color: #DAD7CD;
+}
+
+.tag {
+  display: inline-block;
+  background: #588157;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.2em 0.7em;
+  margin: 0 0.2em 0.2em 0;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  user-select: none;
+}
+.tag:hover, .tag.active {
+  background: #3A5A40;
+  color: #DAD7CD;
+}
+.tags {
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+#tag-filter {
+  margin-bottom: 2rem;
+}
+
+.tag-dropdown {
+  padding: 0.4em 1em;
+  border-radius: 6px;
+  border: 1px solid #588157;
+  background: #A3B18A;
+  color: #344E41;
+  font-size: 1em;
+  transition: border 0.2s;
+}
+.tag-dropdown:focus {
+  outline: none;
+  border: 2px solid #3A5A40;
 }
 
 @keyframes fadeInUp {
