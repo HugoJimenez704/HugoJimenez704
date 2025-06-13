@@ -1,9 +1,9 @@
 [
     {
-        "title": "Project One",
-        "description": "Description of Project One.",
+        "title": "Memoclock",
+        "description": "Simon says was my first project at college. The goal was to create an alarm clock that ensures you are awake by making you play a game of Simon says.",
         "image": "https://via.placeholder.com/150",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID_1"
+        "youtube": "https://www.youtube.com/watch?v=KI55y5cqgig"
     },
     {
         "title": "Project Two",
