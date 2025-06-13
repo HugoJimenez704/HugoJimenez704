@@ -2,9 +2,9 @@ const projectsContainer = document.getElementById('projects-container');
 
 const projects = [
   {
-    title: "Project One",
-    description: "Short description of your project goes here.",
-    image: "https://via.placeholder.com/320x180?text=Image+1",
+    title: "MEMOCLOCK",
+    description: "My first college project. A simple alarm clock that forces the user to play a Simon says game to turn it off.",
+    youtube: "KI55y5cqgig", // Example YouTube ID
     link: "https://github.com/yourusername/project-one"
   },
   {
